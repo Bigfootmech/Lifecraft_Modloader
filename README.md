@@ -24,6 +24,16 @@ Since there's nothing that currently works, I decided to have a play about with 
 After getting permission from the devs, I'm uploading this as a project, and hopefully jumping-off platform,
 so that others can also join in too :).
 
+## Future
+
+The devs have already said they want to bring modding to the game.\
+https://steamcommunity.com/games/1839930/announcements/detail/4183360901877830224 \
+including dlls
+
+Whereas this style of mod loading is usually for games where modding wasn't originally in mind. (exceptions include Tale of Immortal)
+
+So this could end up being a short-term project. We'll have to see.
+
 # Disclaimer
 
 This is meant for changing your own experience in singleplayer sandbox game.
