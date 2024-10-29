@@ -2,7 +2,7 @@
 
 This project (WIP) is a mod-loader for the game Lifecraft.
 
-https://store.steampowered.com/app/1839930/Lifecraft/
+https://store.steampowered.com/app/1839930/Lifecraft/ \
 https://pixbitsduo.itch.io/lifecraft
 
 ## Engine
@@ -13,10 +13,10 @@ This means the existing modloaders for Unity (or indeed Godot, or Unreal) based 
 Or may have other crashes due to relying on non-existing systems.
 
 ### Existing solutions
-Melonloader looks like it could almost work. maybe. using winmm.dll. But I haven't been able to get it to.
-BepInEx has no entry (Lifecraft currently has no web, and doesn't use version.dll)
-UnrealModLoader uses xinput1_3 but Lifecraft has xinput1_4
-and the Godot one requires developer intervention as far as I can tell, to enable it.
+Melonloader looks like it could almost work. maybe. using winmm.dll. But I haven't been able to get it to.\
+BepInEx has no entry (Lifecraft currently has no web, and doesn't use version.dll)\
+UnrealModLoader uses xinput1_3 but Lifecraft has xinput1_4\
+and the Godot one requires developer intervention as far as I can tell, to enable it.\
 
 ### This project
 
@@ -29,7 +29,7 @@ so that others can also join in too :).
 This is meant for changing your own experience in singleplayer sandbox game.
 
 ## Don't Misuse
-Please do not misuse this for anything illegal (eg: repurpose for hacking other software)
+Please do not misuse this for anything illegal (eg: repurpose for hacking other software)\
 Or to harm anyone else's experience. (eg: playing a joke on your friends if the game gets multiplayer later)
 
 ## Care Sus links
@@ -45,17 +45,18 @@ From government supplied, to companies, to individuals.
 If you don't trust anyone, physically disconnect your machine from the internet, as well as any wifi/bluetooth.
 It's the safest way.
 
-Other than that, a reasonable amount of precaution is:
-Getting mods that a lot of other people do, and from a big website (steam's workshop, nexusmods, curseforge... etc)
+Other than that, a reasonable amount of precaution is:\
+Getting mods that a lot of other people do, and from a big website (steam's workshop, nexusmods, curseforge... etc).\
 They tend to have screening processes. As well as announcing and helping you get rid of any nasty stuff that was better hidden.
 
 ## Stability
 Mods can also absolutely break your game. 
 Both in general (Skyrim), and because this current loading is particularly hacky.
+
 Back up your saves before trying.
 
-> User\AppData\Roaming\lifecraft
-or
+> User\AppData\Roaming\lifecraft \
+or \
 > %APPDATA%/lifecraft
 
 You have been warned.
@@ -65,19 +66,19 @@ You have been warned.
 
 Unity games already have lots of very well developed tools that enable modding. Eg:
 
-MelonLoader
-https://melonloader.net/
+MelonLoader\
+https://melonloader.net/ \
 https://github.com/LavaGang/MelonLoader
 
 and
 
-BepInEx (powered by Doorstop)
-https://docs.bepinex.dev/
-https://github.com/BepInEx/BepInEx/
-https://github.com/NeighTools/UnityDoorstop
+BepInEx (powered by Doorstop)\
+https://docs.bepinex.dev/ \
+https://github.com/BepInEx/BepInEx/ \
+https://github.com/NeighTools/UnityDoorstop \
 https://docs.bepinex.dev/master/articles/user_guide/troubleshooting.html
 
-Actually, the "bootstrap" method is a copy of how they run inside Unity games.
+Actually, the "bootstrap" method is a copy of how they run inside Unity games.\
 Modified to work for this game in particular.
 
 ## Dll names
@@ -87,7 +88,7 @@ Currently, the loading works worse than the above projects, but it's one of the 
 
 I've found that on my system, these work ok as dll names: 
 - umpdc.dll
-- HID.DLL
+- HID.DLL \
 and maybe
 - mscms.dll 
 
