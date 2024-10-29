@@ -128,7 +128,7 @@ So bear with me.
 # Install
 
 - Build the project (have Visual Studio on your PC, and compile the project)
-- Rename LifecraftDll.dll to one of the above dll names (eg: umpdc.dll)
+- Rename LifecraftDll.dll to one of the above [dll names](#dll-names) (eg: umpdc.dll)
 - drop it in the Lifecraft bin folder (steamapps\common\Lifecraft\bin\win)
 
 Now if you launch your game, and start it, 
